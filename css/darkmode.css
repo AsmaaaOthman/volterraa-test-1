@@ -7,11 +7,11 @@
     --text-primary: #000000;
     --text-secondary: #130606;
     --text-header: #040101;
-    --accent-color: #d82534;
+    --accent-color: #d82534f0;
     --accent-light: #bc3737;
     --border-color: #ddd;
     --shadow-color: rgba(0, 0, 0, 0.1);
-    --navbar-bg: #d82534;
+    --navbar-bg: #d82534f0;
     --navbar-text: #ffffff;
     --navbar-text-hover: #000000;
     --footer-bg: rgba(19, 5, 5, 0.95);
@@ -28,7 +28,7 @@ body.dark-mode {
     --text-primary: #ffffff;
     --text-secondary: #cccccc;
     --text-header: #d8c9c9;
-    --accent-color: #d82534;
+    --accent-color: #d82534f0;
     --accent-light: #e73c3c;
     --border-color: #444;
     --shadow-color: rgba(255, 255, 255, 0.1);
