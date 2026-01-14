@@ -480,18 +480,18 @@ body.dark-mode .donate-form .form-control {
 
 /* Video Button */
 .btn-play {
-    background-color: var(--bg-secondary) !important;
+    background-color: var(--accent-color) !important;
 }
 
 .btn-play:before,
 .btn-play:after {
-    background-color: var(--bg-secondary) !important;
+    background-color: var(--accent-color) !important;
 
 
 }
 
 .btn-play span {
-    border-left-color: var(--text-primary) !important;
+    border-left-color: var(--accent-color) !important;
 }
 
 /* Smooth scroll */
@@ -794,13 +794,6 @@ body.dark-mode .login-card {
   Project Details Section 
 ************************************/
 
-/* Section */
-.project-details-section {
-    background-color: var(--bg-secondary);
-}
-.division-details-section {
-    background-color: var(--bg-secondary);
-}
 /* Main Project Card */
 .project-card {
     background-color: var(--card-bg);

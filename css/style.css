@@ -2,6 +2,7 @@
 :root {
     --bs-tertiary: #887979;
 }
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -204,7 +205,7 @@
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: var(--bs-dark);
+    background: var(--bs-primary);
 }
 
 .btn-play:before {
@@ -217,7 +218,7 @@
     display: block;
     width: 60px;
     height: 60px;
-    background: var(--bs-dark);
+    background: var(--bs-primary);
     animation: pulse-border 1500ms ease-out infinite;
 }
 
@@ -231,7 +232,7 @@
     display: block;
     width: 60px;
     height: 60px;
-    background: var(--bs-dark);
+    background: var(--bs-primary);
     transition: all 200ms;
 }
 
@@ -857,7 +858,7 @@
 
 
 /*** Custom ***/
-.custom-title {
+ .custom-title {
     height: 100%;
     padding: 30px;
     display: flex;
@@ -866,7 +867,6 @@
     background: url(../img/bg.png) center center no-repeat;
     background-size: cover;
 }
-
 .custom-item {
     overflow: hidden;
 }
